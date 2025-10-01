@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.env
+.venv
+env/
+venv/
+*.log
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Data & model artifacts (keep these OUT of git unless tiny)
+data/
+checkpoints/
+outputs/
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+
+# Hugging Face caches
+huggingface/
+.cache/
